@@ -20,7 +20,7 @@ le_smoker = data["le_smoker"]
 def show_predict_page():
     st.title("Life Insurance Premium Prediction")
 
-    st.sidebar.write("""### We would like to know more about you""")
+    st.write("""### We would like to know more about you""")
 
     Policy_Type = (
         "Term",
