@@ -92,5 +92,5 @@ def show_predict_page():
         X = X.astype(float)
 
         Premium = Regressor.predict(X)
-        st.subheader(f"Your estimated premium is Rs {Premium[0]:.2f}")
+        st.subheader(f"Now secure your life with a premium of only Rs {Premium[0]:.2f}")
 
