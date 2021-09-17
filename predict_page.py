@@ -18,7 +18,7 @@ le_occupation = data["le_occupation"]
 le_smoker = data["le_smoker"]
 
 def show_predict_page():
-    st.title("Life Insurance Premium Prediction")
+    st.title("Predict your Premium")
 
     st.sidebar.write("""### We would like to know more about you""")
 
