@@ -24,7 +24,7 @@ def show_predict_page():
 
     Policy_Type = (
         "Term",
-        "Endownment",
+        "Endowment",
     )
 
     Policy_Term = (
