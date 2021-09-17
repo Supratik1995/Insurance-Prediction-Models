@@ -81,7 +81,7 @@ def show_predict_page():
     Occupation = st.sidebar.selectbox("Occupation", Occupation)
     Smoker = st.sidebar.selectbox("Smoker", Smoker)
 
-    ok = st.button(""Calculate Premium"")
+    ok = st.button("#Calculate Premium#")
     if ok:
         X = np.array([[Policy_Type, Policy_Term, Gender,Age , Premium_Payment, Sum_Assured, Occupation, Smoker]])
         X[:, 0] = le_policytype.transform(X[:, 0])
