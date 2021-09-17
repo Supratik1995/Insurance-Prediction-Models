@@ -72,7 +72,7 @@ def show_predict_page():
         "No",
     )
 
-    Policy_Type = st.selectbox("Policy Type", Policy_Type)
+    Policy_Type = st.sidebar.selectbox("Policy Type", Policy_Type)
     Policy_Term = st.slider("Policy Term", 5, 40, 5, 5)
     Gender = st.selectbox("Gender", Gender)
     Age = st.selectbox("Age", Age)
