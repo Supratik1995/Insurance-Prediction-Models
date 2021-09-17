@@ -73,13 +73,13 @@ def show_predict_page():
     )
 
     Policy_Type = st.sidebar.selectbox("Policy Type", Policy_Type)
-    Policy_Term = st.slider("Policy Term", 5, 40, 5, 5)
-    Gender = st.selectbox("Gender", Gender)
-    Age = st.selectbox("Age", Age)
-    Sum_Assured = st.slider("Sum Assured", 2000000, 10000000, 2000000, 500000)
-    Premium_Payment = st.selectbox("Premium Payment", Premium_Payment)
-    Occupation = st.selectbox("Occupation", Occupation)
-    Smoker = st.selectbox("Smoker", Smoker)
+    Policy_Term = st.sidebar.slider("Policy Term", 5, 40, 5, 5)
+    Gender = st.sidebar.selectbox("Gender", Gender)
+    Age = st.sidebar.selectbox("Age", Age)
+    Sum_Assured = st.sidebar.slider("Sum Assured", 2000000, 10000000, 2000000, 500000)
+    Premium_Payment = st.sidebar.selectbox("Premium Payment", Premium_Payment)
+    Occupation = st.sidebar.selectbox("Occupation", Occupation)
+    Smoker = st.sidebar.selectbox("Smoker", Smoker)
 
     ok = st.button("Calculate Premium")
     if ok:
